@@ -445,21 +445,26 @@ button {
 .left-side {
   width: 50%;
   padding: 0px 50px 0px;
-  display: flex;
+  /*  display: flex; */
   flex-direction: column;
   height: 100%;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .left-side h1 {
-  padding-top: 10px;
+  padding: 60px 0;
   font-size: 40px;
 }
 
 .formclass {
   display: flex;
   flex-direction: column;
+  height: 700px;
   justify-content: space-between;
+}
+
+form {
+  height: 100%;
 }
 
 input[type=text],
@@ -963,7 +968,6 @@ input[type=submit]:hover {
 }
 
 .partners {
-  height: 50vh;
   background-color: #ffffff;
   padding: 10px 100px;
 }
