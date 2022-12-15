@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="/img/logony.png" alt="logo"></a>
+
+        <ul class="nav_links">
+            <li> <a class="headercenter" href="program.html">AKTIVITETER</a> </li>
+            <li> <a class="headercenter" href="foodtruck.html">FOODTRUCK</a> </li>
+            <li> <a class="headercenter" href="kidsque.html">KIDS QUE</a> </li>
+            <li> <a class="headercenter" href="signup.html">TILMELD</a> </li>
+            <li> <a class="headercenter" href="kontakt.html">KONTAKT</a> </li>
+        </ul>
+        <nav>
+            <ul class="nav_links">
+
+
+                <div class="lang-menu">
+                    <div class="selected-lang">
+                        <a class="dk">ENGLISH</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-teamsignup">
+        <div class="inner-container-teamsignup">
+            <div class="left-side">
+                <h1>FRIVILLIG</h1>
+                <div class="form-section">
+                    <form class="formclass" action="action_page.php">
+
+                        <label for="fname">Navn</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Skriv navn..">
+
+                        <label for="lname">Adresse</label>
+                        <input type="text" id="lname" name="lastname"
+                            placeholder="F.eks. Skolegade 21, Esbjerg 6700, st. th...">
+
+                        <label for="lname">Telefonnummer</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Skriv telefonnummer...">
+
+                        <label for="lname">E-mail</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Skriv e-mail...">
+
+                        <label for="lname">T-shirt størrelse</label>
+                        <select id="storrelse" name="storrelse">
+                            <option value="X-Small">X-Small</option>
+                            <option value="Small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                            <option value="X-Large">X-Large</option>
+                        </select>
+                        <label for="lname">Frivillige dage</label>
+                        <div class="radioform">
+                            <div class="rowform">
+                                <input id="cb" type="checkbox" name="frivillig" value="fredag">Fredag<br>
+                            </div>
+                            <div class="rowform">
+                                <input id="cb" type="checkbox" name="frivillig" value="lordag">Lørdag<br>
+                            </div>
+                            <div class="rowform">
+                                <input id="cb" type="checkbox" name="frivillig" value="sondag">Søndag<br>
+                            </div>
+                        </div>
+
+                        <input type="submit" value="TILMELD">
+
+                    </form>
+                </div>
+            </div>
+            <div class="right-side2"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
